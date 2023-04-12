@@ -1,0 +1,90 @@
+﻿@page
+@model RazorPizzeria.Pages.Forms.CustomPizzaModel
+@{
+}
+@*<a class="nav-link text-dark" asp-area="" asp-page="Checkout/Checkout">Checkout</a>*@
+
+<div class="text-center container">
+    <h1>Create your Own Pizza😁!!!</h1>
+
+    <form method="post" class="mx-auto mt-5 mb-5 px-5 pt-5 pb-5 rounded-6 bg-light col-5" style="display:flex;flex-direction:column;align-items:flex-start;">
+        <input class="col-8 " type="text" asp-for="Pizza.PizzaName" placeholder="Give your Pizza a name 😊" />
+        <br />
+        <div>
+
+            <input type="checkbox" asp-for="Pizza.Ham" placeholder=" Ham" />
+            <label>Ham</label>
+        </div>
+
+
+        <br />
+        <div>
+            <input type="checkbox" asp-for="Pizza.TomatoSauce" placeholder=" Tomato sauce" />
+            <label> Tomato Sauce </label>
+        </div>
+
+
+
+        <br />
+        <div>
+            <input type="checkbox" asp-for="Pizza.Cheese" placeholder=" Cheese" />
+            <label>Cheese </label>
+        </div>
+
+
+
+        <br />
+        <div>
+            <input type="checkbox" asp-for="Pizza.Chicken" placeholder=" Chicken" />
+            <label>Chicken</label>
+
+        </div>
+
+
+
+        <br />
+        <div>
+            <input type="checkbox" asp-for="Pizza.Mushroom" placeholder="Mushroom " />
+            <label>Mushroom</label>
+        </div>
+
+
+
+        <br />
+        <div>
+            <input type="checkbox" asp-for="Pizza.Peperoni" placeholder="Peperoni " />
+            <label>Peperoni</label>
+
+        </div>
+
+
+
+        <br />
+        <div>
+            <input type="checkbox" asp-for="Pizza.PinaApple" placeholder=" PineApple" />
+            <label>Pine apple</label>
+        </div>
+
+
+
+        <br />
+        <div>
+            <input type="checkbox" asp-for="Pizza.Tuna" placeholder=" Tuna" />
+            <label>Tuna</label>
+        </div>
+
+
+
+        <br />
+        <div>
+            <input type="checkbox" asp-for="Pizza.Paneer" placeholder="Paneer " />
+            <label>Paneer</label>
+        </div>
+
+
+        <br />
+
+        <button class=" btn btn-outline-dark mt-1 " type="submit">Order My Pizza❤️</button>
+    </form>
+
+</div>
